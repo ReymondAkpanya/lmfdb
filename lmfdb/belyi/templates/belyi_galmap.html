@@ -150,6 +150,11 @@ function viewEmbedding(idx) {
           {{ data.dessin_svgs[svg_idx]|safe }}
         </div>
       {% endfor %}
+      <p style="font-size:0.85em; margin-top:0.75em;">
+        The drawing routine is based on a C program by Gunnar Brinkmann, described in:<br>
+        G. Brinkmann, <em>Drawing maps on oriented surfaces</em>, 2025.
+        Preprint: <a href="https://arxiv.org/abs/2505.01480">arXiv:2505.01480</a>.
+      </p>
     </div></div></div>
   </div>
 {% endif %}

@@ -15,7 +15,7 @@ from lmfdb import db
 # Belyi dessin images from belyi_images.txt
 ###############################################################################
 
-_belyi_images = None  # loaded lazily
+_belyi_images = None  
 
 def _load_belyi_images():
     global _belyi_images
